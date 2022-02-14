@@ -6,11 +6,12 @@ import (
 	"encoding/hex"
 	"encoding/json"
 	"fmt"
-	"golang.org/x/crypto/sha3"
 	"math/big"
 	"math/rand"
 	"reflect"
 	"strings"
+
+	"golang.org/x/crypto/sha3"
 
 	"github.com/HyperService-Consortium/go-hexutil"
 )
